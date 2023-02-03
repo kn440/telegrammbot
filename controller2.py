@@ -4,7 +4,7 @@ import time
 import random
 
 user_sweets=0
-sweets=30
+sweets=221
 max_sweet=28
 turn=0
 flag="Игрок 1"
