@@ -47,12 +47,12 @@ def get_count_bot(message):
     global flag
     global turn
     if sweets <= max_sweet:
-        turn = max_sweet
+        turn = sweets
     elif sweets % max_sweet == 0:
         turn = max_sweet - 1
     else:
         turn = sweets % max_sweet - 1
-    if turn>0:
+    if turn!=0:
         sweets=sweets-turn
     else:
         turn=random.randint(1,max_sweet)
